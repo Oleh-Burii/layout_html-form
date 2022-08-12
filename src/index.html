@@ -71,6 +71,7 @@
           <input
             type="email"
             name="email"
+            id="email"
             placeholder="email@example.com"
             required
           >
@@ -80,6 +81,7 @@
           <input
             type="password"
             name="password"
+            id="password"
             minlength="5"
             maxlength="32"
             required
@@ -107,6 +109,7 @@
           <input
             type="color"
             name="color"
+            id="color"
         >
         </div>
         <div class="form-field">
@@ -121,6 +124,7 @@
           <label for="cars">What are your favorite brand of cars?</label>
           <select
             name="cars"
+            id="cars"
             multiple
           >
             <option value="BMW">BMW</option>
@@ -144,7 +148,9 @@
           <label for="comments">Comments:</label>
           <textarea
             name="comments"
-            autocomplete="off"
+            id="comments"
+            maxlength="250"
+            minlength="10"
           ></textarea>
         </div>
         <div class="form-field">
